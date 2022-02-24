@@ -1,0 +1,54 @@
+/* container*/
+.middle-box{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 480px; height: 540px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.news-box{
+    display: flex;
+    flex-direction: row;
+    font-family: "Pretendard-Regular";
+
+}
+
+
+
+/*photo book */
+.photo_contents {
+    overflow: scroll;
+    position: absolute;
+    top: 35px;bottom: 25px;left: 310px;right: 115px;
+    color: black;
+    font-family: 'Cafe24Ohsquareair';
+}
+
+.photo_title {
+    margin: 10px;
+    height: 35px;
+    font-size: 14px;
+    font-weight:700;
+    line-height: 35px;
+    background-color: whitesmoke;
+}
+
+.photo_title_date {
+    font-size: 10px;
+    color: steelblue;
+}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 2%;
+    max-width:100%; height:auto;
+}
+.photo_text {
+    margin: 10px 0px 30px 35px;
+    font-size: 14px;
+}

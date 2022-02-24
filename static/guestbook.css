@@ -1,0 +1,85 @@
+/* middel-container*/
+.middle-box{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 480px; height: 540px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.news-box{
+    display: flex;
+    flex-direction: row;
+    font-family: "Pretendard-Regular";
+
+}
+
+
+
+/*photo book */
+.photo_contents {
+    overflow: scroll;
+    position: absolute;
+    top: 35px;bottom: 25px;left: 310px;right: 115px;
+    color: black;
+    font-family: 'Cafe24Ohsquareair';
+}
+
+.photo_title {
+    margin: 10px;
+    height: 35px;
+    font-size: 14px;
+    font-weight:700;
+    line-height: 35px;
+    background-color: whitesmoke;
+}
+
+.guest_name{
+    font-size: 14px;
+    color: steelblue;
+}
+
+
+/*visitor-image*/
+
+.guestbook-image {
+    flex: 0 0 8rem;
+    height: 6em;
+    background-size: contain;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+  .background-1 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/28/19/36/heart-5106075_1280.png");
+}
+  
+  .guestbook-image > img {
+    width: 100%;
+}
+
+/*comment*/
+
+.guestbook-comment{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+
+.photo_text {
+    flex: 3;
+    margin: 10px 10px 0px 25px;
+    font-size: 14px;
+}
+
+

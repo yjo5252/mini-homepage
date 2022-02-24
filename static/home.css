@@ -1,0 +1,94 @@
+/*home.css*/
+
+.middle-box{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 480px; height: 540px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.story-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font: bold;
+    margin: 20px 10px 0px 10px;
+    color: royalblue;
+    border-bottom: 1px solid gray;
+    border-bottom-style: solid;
+
+}
+
+/*updated news */
+.news-box{
+    display: flex;
+    flex-direction: row;
+    font-family: "Pretendard-Regular";
+
+}
+
+
+
+.photobook-tag{
+    color: white;
+    background-color: red;
+    border-radius: 9%;
+    padding: 4px;
+}
+
+
+.board-tag{
+    color: white;
+    background-color: blue;
+    border-radius: 9%;
+    padding: 3px;
+}
+
+/*article-box*/
+
+.article-title{
+    
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.article-box{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+/*status-box*/
+.status-item{
+    flex: 0.3;
+    border-bottom: 1px solid silver;
+    border-bottom-style: dashed;
+    font-size: 13px;
+}
+
+.status-value{
+    color: blue;
+}
+
+
+.status-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 8px 20px;
+}
+
+
+.miniroom-view{
+    
+    margin: 10px;  
+    padding: 0px;
+}
+.miniroom-user-position{
+    width: 400px;
+    border-radius: 4px;
+    top: 50%; left: 50%; 
+    transform: translate(7%, 0%);
+}

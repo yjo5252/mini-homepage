@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css">
+    <link rel="stylesheet" href="./static/layout.css">
+    <link rel="stylesheet" href="./static/photobook.css">
+    <link rel= "stylesheet" href="./static/diary.css">
+    <script src="https://kit.fontawesome.com/b0c8e34b4d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="bookcover">
+        <div class="bookdot"> 
+            <div class="page" >
+                <div class="left-container">
+                    <div class="left-title">TODAY <span>28</span> | TOTAL 234918</div>
+                    <div class="left-box">
+                        <img class="user-img" src="static/images/persona.jpeg" alt="persona-img" width="230"></img>
+                        <div class="persona-box">
+                            <br>저는 NFT가 좋아요. NFT가 뭐냐구요? 디지털 자산으로 가상화폐자산을 만드는 거예요. 여러분들에게 설명해주면서 얻어가는 홍보효과가 제가 제일 좋아하는 종목이죠~
+                            <br>
+                            <br>토끼 = NFT 러버 ㅇㅋ?</br>
+                            <br> 토끼 (♂)</br>
+
+                            <div class="select-page">
+                                <select name="page-transfer">
+                                    <option value="" disabled selected>파도타기 </option>
+                                    <option value="코뮤니티로 가기">코뮤니티로 가기</option>
+                                    <option value="인스타그램으로 가기">인스타그램으로 가기</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="middle-container">
+                    <div class="middle-title">
+                        <div class="middle-title-intro">토끼의 투자 ㅎr 우 스 ...</div>
+                        <div class="middle-url">https://homepage/bunny_invest.kr</div>
+                    </div>
+                    <div class="middle-box">
+                        <div class="news-box">
+                            <div class="middle-diary">
+                                <div class="calendar-container"> 
+                                    <div class="today">02.21<br>MON</div>
+                                    
+                                    <div class="calendar">
+                                        <span class="vacation">1</span> <span class="vacation">2</span>
+                                        <span class="weekday">3</span> <span class="weekday">4</span> 
+                                        <span class="saturday">5</span> <span class="sunday">6</span>
+
+                                        <span class="weekday">7</span><span class="weekday">8</span>
+                                        <span class="weekday">9</span><span class="weekday">10</span><span class="weekday">11</span>
+                                        <span class="saturday">12</span><span class="sunday">13</span>
+                                        
+                                        <span class="weekday">14</span><span class="weekday">15</span>
+                                        <span class="weekday">16</span><span class="weekday">17</span><span class="weekday">18</span>
+                                        <span class="saturday">19</span><span class="sunday">20</span>
+
+                                        <span class="weekday">21</span><span class="weekday">22</span>
+                                        <span class="weekday">23</span><span class="weekday">24</span><span class="weekday">25</span>
+                                        <span class="saturday">26</span><span class="sunday">27</span>
+
+                                        <span class="weekday">28</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="diary-container">
+                                    <div class="diary-post">
+                                        <div class="diary-title">2022.02.21 Mon</div>
+                                        <div class="diary-content">투자일기 <br> <br> 
+                                            현금흐름 만들기 <br><br>
+                                        </div>
+                                    </div>
+
+                                    <div class= "diary-post">
+                                        <div class="diary-title">2022.02.22 Tue</div>
+                                        <div class="diary-content">NFT 투자 </br>
+                                            NFT가 좋아요. NFT가 뭐냐구요? 디지털 자산으로 가상화폐자산을 만드는 거예요. 여러분들에게 설명해주면서 얻어가는 홍보효과가 제가 제일 좋아하는 종목이죠~
+                                        </div>
+                                    </div>  
+
+                                    <div class= "diary-post">
+                                        <div class="diary-title">2022.02.23 Wed</div>
+                                        <div class="diary-content">공모주 투자 </br>
+                                            공모주에 투자하는 날.여러분들에게 설명해주면서 얻어가는 홍보효과가 제가 제일 좋아하는 종목이죠~ 
+                                        </div>
+                                    </div>  
+                                    <div class="button-container">
+                                        <button class="secret-button" onclick="getTextFile();">
+                                            <i class="fas fa-lock"></i>토끼의 투자하우스 비밀 보기
+                                        </button>
+                                    </div>  
+                                    <div class="diary-post" id="secret-box">
+                                        <div class="diary-date">토끼의 비밀일기</div>
+                                        <div class="diary-text font-kyobohand" id="secret-diary"></div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                </div>
+
+
+                <div class="right-container">
+                    <div class="menu-button">
+                        <a id="home-button" href="./home.html">홈</a>
+                        <a id="diary-button" href="./diary.html">다이어리</a>
+                        <a id="photobook-button" href="./photobook.html">사진첩</a>
+                        <a id="guestbook-button" href="./guestbook.html">방명록</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function getTextFile() {
+            var input = document.createElement("input");
+            input.type = "file";
+            input.accept = "text/plain";
+            input.onchange = function (event) {
+                processFile(event.target.files[0]);
+            };
+            input.click();
+        }
+
+        function processFile(file) {
+            var reader = new FileReader();
+            reader.readAsText(file, "utf-8");
+
+            reader.onload = function () {
+                document.getElementById("secret-diary").innerText = reader.result;
+                document.getElementById("secret-box").style.display = "block";
+            };
+        }
+    </script>
+
+</body>
+</html>
